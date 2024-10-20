@@ -1,1 +1,154 @@
-
+{
+  "@defines": {
+    "--primary": "rgba(62,71,89,1)",
+    "--primary-variant": "rgba(173,199,254,1)",
+    "--secondary": "rgba(62,71,88,1)",
+    "--secondary-variant": "rgba(62,71,88,1)",
+    "--background": "rgba(18,19,24,1)",
+    "--surface": "rgba(27,31,39,1)",
+    "--surface-variant": "rgba(27,31,39,1)",
+    "--on-background": "rgba(220,220,220,1)",
+    "--on-surface": "rgba(226,225,232,1)",
+    "--on-surface-variant": "rgba(26,31,39,1)",
+    "--shape": "rounded-corner(8dp,8dp,8dp,8dp)",
+    "--shape-variant": "rounded-corner(12dp,12dp,12dp,12dp)"
+  },
+  "keyboard": {
+    "background": "var(--background)"
+  },
+  "key": {
+    "background": "var(--surface)",
+    "foreground": "var(--on-surface)",
+    "font-size": "22sp",
+    "shape": "var(--shape)",
+    "shadow-elevation": "2dp"
+  },
+  "key[code=10]": {
+    "background": "var(--primary)",
+    "foreground": "var(--on-surface)",
+    "shape": "rounded-corner(45%,45%,45%,45%)"
+  },
+  "key[code=32]": {
+    "background": "var(--surface)",
+    "foreground": "var(--on-surface-variant)",
+    "font-size": "12sp"
+  },
+  "key[code=-11][shiftstate=3]": {
+    "foreground": "var(--secondary)"
+  },
+  "key:pressed": {
+    "background": "var(--surface-variant)",
+    "foreground": "var(--on-surface)"
+  },
+  "key[code=10]:pressed": {
+    "background": "var(--primary-variant)",
+    "foreground": "var(--on-surface)"
+  },
+  "key-hint": {
+    "background": "rgba(0,0,0,0)",
+    "foreground": "var(--on-surface-variant)",
+    "font-size": "12sp"
+  },
+  "key-popup": {
+    "background": "rgba(62,71,89,1)",
+    "foreground": "var(--on-surface)",
+    "font-size": "22sp",
+    "shape": "var(--shape)",
+    "shadow-elevation": "2dp"
+  },
+  "key-popup:focus": {
+    "background": "rgba(129,146,182,1)",
+    "foreground": "var(--on-surface)"
+  },
+  "smartbar-candidate-word": {
+    "background": "rgba(0,0,0,0)",
+    "foreground": "var(--on-background)",
+    "font-size": "14sp",
+    "shape": "rectangle()"
+  },
+  "smartbar-candidate-word:pressed": {
+    "background": "var(--surface)",
+    "foreground": "var(--on-background)"
+  },
+  "smartbar-candidate-clip": {
+    "background": "rgba(0,0,0,0)",
+    "foreground": "var(--on-background)",
+    "font-size": "14sp",
+    "shape": "rounded-corner(8%,8%,8%,8%)"
+  },
+  "smartbar-candidate-clip:pressed": {
+    "background": "var(--surface)",
+    "foreground": "var(--on-background)"
+  },
+  "smartbar-candidate-spacer": {
+    "foreground": "var(--surface)"
+  },
+  "clipboard-header": {
+    "background": "rgba(0,0,0,0)",
+    "foreground": "var(--on-surface)",
+    "font-size": "16sp"
+  },
+  "clipboard-item": {
+    "background": "var(--surface)",
+    "foreground": "var(--on-surface)",
+    "font-size": "14sp",
+    "shape": "var(--shape-variant)",
+    "shadow-elevation": "2dp"
+  },
+  "clipboard-item-popup": {
+    "background": "var(--surface-variant)",
+    "foreground": "var(--on-surface)",
+    "font-size": "14sp",
+    "shape": "var(--shape-variant)",
+    "shadow-elevation": "2dp"
+  },
+  "emoji-key": {
+    "background": "rgba(0,0,0,0)",
+    "foreground": "var(--on-background)",
+    "font-size": "22sp",
+    "shape": "var(--shape)"
+  },
+  "emoji-key:pressed": {
+    "background": "var(--surface)",
+    "foreground": "var(--on-surface)"
+  },
+  "emoji-key-popup": {
+    "background": "rgba(117,117,117,1)",
+    "foreground": "var(--on-surface)",
+    "font-size": "22sp",
+    "shape": "var(--shape)",
+    "shadow-elevation": "2dp"
+  },
+  "emoji-tab": {
+    "foreground": "var(--on-background)"
+  },
+  "emoji-tab:focus": {
+    "foreground": "var(--primary)"
+  },
+  "extracted-landscape-input-action": {
+    "background": "var(--primary)",
+    "foreground": "var(--on-surface)",
+    "shape": "rounded-corner(4dp,4dp,4dp,4dp)"
+  },
+  "extracted-landscape-input-field": {
+    "background": "rgba(0,0,0,0)",
+    "foreground": "var(--on-background)",
+    "font-size": "16sp",
+    "shape": "rounded-corner(12dp,12dp,12dp,12dp)",
+    "border-color": "var(--secondary)",
+    "border-width": "2dp"
+  },
+  "extracted-landscape-input-layout": {
+    "background": "var(--background)"
+  },
+  "glide-trail": {
+    "foreground": "var(--primary)"
+  },
+  "one-handed-panel": {
+    "background": "rgba(27,94,32,1)",
+    "foreground": "rgba(238,238,238,1)"
+  },
+  "system-nav-bar": {
+    "background": "var(--background)"
+  }
+}
