@@ -1,0 +1,22 @@
+{
+  "$": "ime.extension.theme",
+  "meta": {
+    "id": "io.github.linuzzx.calmblue",
+    "version": "0.0.0",
+    "title": "Calm Blue",
+    "description": "A calm dark blue theme, looks best on oled screens",
+    "maintainers": [
+      "linuzzx"
+    ],
+    "license": "Apache 2.0"
+  },
+  "themes": [
+    {
+      "id": "calmblue",
+      "label": "Calm Blue",
+      "authors": [
+        "linuzzx"
+      ]
+    }
+  ]
+}
